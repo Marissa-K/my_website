@@ -1,0 +1,21 @@
+/* Scss Document */
+article h2 {
+  font-family: Arial;
+  color: blue; }
+article .cat-paragraph-1 {
+  color: red; }
+article .cat-paragraph-2 {
+  color: green; }
+
+li {
+  font-family: arial;
+  font-weight: 700;
+  font-size: 1.3em; }
+
+p {
+  background-color: #cccccc;
+  padding: 50px;
+  font-size: 2em; }
+
+body {
+  padding: 50px; }

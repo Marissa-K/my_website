@@ -1,0 +1,44 @@
+/* Scss Document */
+
+ //nesting
+
+article {
+  h2 {
+    font-family: Arial;
+    color: blue;
+  }
+  .cat-paragraph-1 {
+    color: red;
+  }
+  .cat-paragraph-2 {
+    color: green;
+  }
+}
+
+li{  
+	font: {
+		family:arial;
+		weight:700;
+		size:1.3em;
+	}
+}
+
+// VARIABLES 
+
+$main-color: #cccccc;
+$padding: 50px;
+$blabla:2em;
+
+p{
+	background-color: $main-color;
+	padding:$padding;
+	font-size: $blabla;
+}
+
+body{
+	padding: $padding;
+}
+
+
+
+
